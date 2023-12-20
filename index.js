@@ -11,3 +11,7 @@ app.listen(port, () => {
 app.get('/', (req,res)=>{
     res.json({'Message': 'Hello from local host'})
 })
+
+app.get('/greet', (req,res)=>{
+    res.json({'Message': 'Happy New Year'})
+})
